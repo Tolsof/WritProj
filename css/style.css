@@ -1,0 +1,159 @@
+/* font-family: 'Raleway', sans-serif; */
+    
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+    font-size-adjust: .5;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* End resets */
+/* Useful stuff */
+.indent {
+    margin-left: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+/* End Useful Stuff */
+
+nav {
+}
+
+#nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between
+    align-items: stretch;
+    flex-direction: column;
+
+    padding-top: 100px;
+    margin-right: 100px;
+
+    width: 300px;
+    height: 100vh;
+    float: left;
+
+    background: #859594;
+}
+
+.nav-item {
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    width: 300px;
+
+    cursor: pointer;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    transition: width .5s;
+}
+
+.nav-item.not-selected:hover {
+    width: 315px;
+}
+
+.nav-item.selected {
+    width: 325px;
+}
+
+.nav-item:nth-of-type(1) {
+    background: #e2d4c9;
+}
+
+.nav-item:nth-child(2) {
+    background: #dfd0c5;
+}
+
+.nav-item:nth-child(3) {
+    background: #d3c6bc;
+}
+
+.nav-item:nth-child(4) {
+    background: #859594;
+    height: 100vh;
+}
+
+.article {
+    padding-top: 25px;
+    padding-left: 400px;
+}
+
+.article-holder {
+    padding-top: 25px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+.blerb {
+    width: 520px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15em;
+    margin-right: 15px;
+}
+
+.blerb > ul {
+    list-style-type: circle;
+}
+
+img.ba {
+    width: 50%;
+    height: 50%;
+}
+
+img.car {
+    width: 150px;
+    height: 150px;
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+img.graph {
+    width: 300px;
+    height: 200px;
+}
+
+img.fun {
+    margin-right: -25px;
+    height: 125%;
+    
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* Color scheme: http://colorschemedesigner.com/csd-3.5/#0s21T80sO6q6q */
